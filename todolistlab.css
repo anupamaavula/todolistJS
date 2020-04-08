@@ -1,0 +1,58 @@
+/*Basic style*/
+body
+{
+	background:coral;
+	color: black;
+	font-family: Lato,sans-serif;
+}
+.container
+{
+	display:black;
+	width:300px;
+	margin:100px auto 0;
+
+}
+ul
+{
+	margin:0;
+	padding:0;
+
+}
+li *
+{
+	float: left;
+
+}
+li,h3{
+	clear:both;
+	list-style: none;
+}
+input,button{
+	outline: none;
+
+}
+button {
+  background: white;
+  border: 6px;
+  color: blue;
+  font-size: 10px;
+  width: 60px;
+  margin: 10px 0 0;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  color: #333;
+}
+/*TaskList*/
+li {
+  overflow: hidden;
+  padding: 30px 0;
+  border-bottom: 1px solid #eee;
+}
+li >  input[type="text"] {
+  width: 226px;
+}
+li > .delete:hover {
+  color: #CF2323;
+}
